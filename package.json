@@ -6,9 +6,9 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy gh-pages=/web-design-blog-starter/",
+		"build-ghpages": "npx @11ty/eleventy gh-pages/web-design-blog-starter/",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy gh-pages=/web-design-blog-starter/ --serve --quiet"
+		"start-ghpages": "npx @11ty/eleventy gh-pages/web-design-blog-starter/ --serve --quiet"
 	},
 	"repository": {
 		"type": "git",
@@ -17,7 +17,7 @@
 	"author": {
 		"name": "Tiqon Lediard",
 		"email": "tiqon.lediard437@myhunter.cuny.edu",
-		"url": "git@github.com:itznotisrael/web-design-blog-starter.git"
+		"url": "https://itznotisrael.github.io/web-design-blog-starter/"
 	},
 	"license": "MIT",
 	"engines": {
