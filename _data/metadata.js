@@ -1,5 +1,5 @@
 export default {
-	title: "Tiqon's Blog",
+	title: "My Blog",
 	url: "https://example.com/",
 	language: "en",
 	description: "I am writing about my experiences as a naval navel-gazer.",

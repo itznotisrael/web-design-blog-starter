@@ -4,6 +4,7 @@ const eleventyNavigation = {
 	order: 3
 };
 ---
-# About
+<!--# About-->
+<h1 class = "puff-in-center"> About Me </h1>
 
-I am a person that writes stuff.
+<p class = "puff-in-center-text">I am a person that writes stuff.</p>
