@@ -44,14 +44,24 @@
 @view-transition {
 	navigation: auto;
 }
-
 html,
 body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-	background-color: var(--background-color);
+	/*background-color: var(--background-color);*/
+    background: linear-gradient(135deg, #4c6ef5, #ff4e50, #f9d423, #48c6ef, #7d5fff, #ff6ec4);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+
+}
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 50% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 50% 50%; }
+    100% { background-position: 0% 50%; }
 }
 html {
 	overflow-y: scroll;
@@ -295,48 +305,24 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
-/*
- * New diff- syntax
- */
 
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
+/*MY ALTERATIONS*/
+
+.frosted-paragraph {
+  background: rgba(255, 230, 0, 0.15); /* Brighter yellow tint */
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 230, 0, 0.3);
+  color: black;
+  box-shadow: 0 0 12px rgba(255, 230, 0, 0.6),
+              0 0 24px rgba(255, 230, 0, 0.4); /* Unique glow effect */
+  transition: all 0.3s ease-in-out;
+  top: -230px;
 }
 
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
+.frosted-paragraph:hover {
+  box-shadow: 0 0 18px rgba(255, 230, 0, 0.8),
+              0 0 36px rgba(255, 230, 0, 0.6);
+  transform: scale(1.02);
 }
