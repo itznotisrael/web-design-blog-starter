@@ -8,7 +8,7 @@ const numberOfLatestPostsToShow = 3;
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1 style = "color:white; text-align: center" class = "tracking-in-contract-bck-top header-title">Total Posts: {{ latestPostsCount }}{% if latestPostsCount != 1 %}{% endif %}</h1>
+<h1 class = "tracking-in-contract-bck-top header-title" style = "text-align: center">Total Posts: {{ latestPostsCount }}{% if latestPostsCount != 1 %}{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -19,7 +19,7 @@ const numberOfLatestPostsToShow = 3;
 {# List every content page in the project #}
 {#
 <ul>
-	<li class = "tracking-in-contract-bck-top"><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
 </ul>
 #}
 
