@@ -7,8 +7,8 @@
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/",
-		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/ --serve --quiet"
+		"start": "npx @11ty/eleventy --serve",
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/ --serve"
 	},
 	"repository": {
 		"type": "git",
@@ -28,7 +28,7 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy": "^3.1.2",
 		"@11ty/eleventy-img": "^6.0.4",
 		"@11ty/eleventy-navigation": "^1.0.4",
 		"@11ty/eleventy-plugin-rss": "^2.0.4",
