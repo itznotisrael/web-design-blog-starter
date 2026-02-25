@@ -11,8 +11,8 @@ date: 2026-02-22
 
 <h2 class = "header-title-alt"> API's </h2>
 
-<p> Animechan </p>
-<p> Jikan </p>
-<p> My AnimeList </p>
+<a href = "https://github.com/RocktimSaikia/anime-chan"> Animechan </a>
+<a href = "https://jikan.moe/"> Jikan </a>
+<a href = "https://myanimelist.net/clubs.php?cid=13727"> My AnimeList </a>
 
 
