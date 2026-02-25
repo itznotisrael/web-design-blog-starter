@@ -11,8 +11,6 @@ date: 2026-02-22
 
 <h2 class = "header-title-alt"> API's </h2>
 
-<p style = "text-align: center;"> Animechan </p>
-<p style = "text-align: center;"> Jikan </p>
-<p style = "text-align: center;"> My AnimeList </p>
+<p> Animechan, Jikan, MyAnimeList </p>
 
 
