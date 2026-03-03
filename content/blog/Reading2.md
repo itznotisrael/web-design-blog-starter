@@ -1,11 +1,11 @@
 ---
-title: Reading II Surveillance
+title: Reading 2: Surveillance
 description: Reading #2: Surveillance
 date: 2026-03-03
 ---
 
 
-<h2 class = "header-title-alt"> The Age of Surveillance Capitalism by Shoshana Zuboff </h2>
+<h2 class = "header-title-alt"> The Age of Surveillance Capitalism - Shoshana Zuboff </h2>
 
 <p> Zuboff argues that we are living in a new economic system called surveillance capitalism, where companies collect vast amounts of personal data from our online behavior and turn it into profit. Instead of just providing services, tech companies extract behavioral data (searches, clicks, locations, likes) and use it to predict and even influence—our future actions. </p>
 
