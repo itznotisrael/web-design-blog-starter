@@ -1,6 +1,6 @@
 ---
-title: Reading #2 - Surveillance
-description: Reading #2: Surveillance
+title: Reading II
+description: Surveillance
 date: 2026-03-03
 ---
 
