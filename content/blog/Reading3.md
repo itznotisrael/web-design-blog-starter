@@ -25,7 +25,8 @@ The gist is “cloud” isn’t neutral, it’s a system that captures, shapes, 
 
 <h2 class = "header-title-alt"> Reflection </h2>
 
-<p> Reading these all three of these readings terrifies me. All three pieces hint at the same fear We think we’re using technology, But increasingly, technology is defining us. 'Heavy Lies the Digital Cloud' explains the cloud decides what memories matter, 'ChatGPT is a Blurry JPEG of the Web' shows AI decides how knowledge is presented, and 'The Web's Grain' shows design trends decide how we interact with the world.  
+<p>
+Reading these all three of these readings terrifies me. All three pieces hint at the same fear We think we’re using technology, But increasingly, technology is defining us. 'Heavy Lies the Digital Cloud' explains the cloud decides what memories matter, 'ChatGPT is a Blurry JPEG of the Web' shows AI decides how knowledge is presented, and 'The Web's Grain' shows design trends decide how we interact with the world.  
 </p>
 
 
