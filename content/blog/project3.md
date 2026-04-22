@@ -15,7 +15,7 @@ date: 2026-04-21
     <p>
         <ul>
             <li> <a href = "https://judyzhang05.github.io/web-design-blog/blog/9_project3/"> Judy Blog Post </a></li>
-            <li><a href = ""> Jorge Blog Post </a></li>
-            <li><a href = ""> Kris Blog Post </a></li>
+            <li><a href = "https://jorgevin74.github.io/web-design-blog/blog/project-3-concept/"> Jorge Blog Post </a></li>
+            <li><a href = "https://krisswan253.github.io/web-design-blog/blog/Project3-concept/"> Kris Blog Post </a></li>
         </ul>
     </p>
