@@ -8,6 +8,9 @@ date: 2026-05-06
     <p>
         <ul>
             <li>
+                <a href = "https://judyzhang05.github.io/web-design-blog/blog/98_project3Prototype/"> Project#3 - Prototype </a>
+            <li>
+            <li>
                 <a href = "https://github.com/JudyZhang05/MEDP345_Final_Project_NOVA"> Github Code </a>
             <li>
         </ul>
