@@ -4,10 +4,10 @@ description: Project 3 - Final
 date: 2026-05-20
 ---
 
-<h2 class = "header-title-alt"> My Contribution </h2>
+<h2 class = "header-title-alt"> TJ's Contribution </h2>
 
 <p> 
-    I focused on the background audio and the 3D positional audio for the duck. I wanted the environment to feel alive even before users interacted with ducks, so I added looping ambient background music. I used this website as a reference for the <a href = "https://threejs.org/docs/#Audio"> background audio </a>. The only difficult part of the background audio was the browser autoplay restrictions, which blocked out the audio. I overcame this hurdle by resuming only after the user clicked(main.js: Lines 119 - 135).
+    I focused on the background audio and the 3D positional audio for the duck. I wanted the environment to feel alive even before users interacted with ducks, so I added looping ambient background music. I used this website as a reference for the <a href = "https://threejs.org/"> three.js </a> when adding my alterations. Specifically, the <a href = "https://threejs.org/"> Audio Slide </a>. and the The only difficult part of the background audio was the browser autoplay restrictions, which blocked out the audio. I overcame this hurdle by resuming only after the user clicked(main.js: Lines 119 - 135).
 </p> 
 
 <p>
