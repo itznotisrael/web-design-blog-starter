@@ -7,7 +7,7 @@ date: 2026-04-21
 <h2 class = "header-title-alt"> I Know a Place - Everest Pipkin </h2>
 
 <p> 
-The article compares abandoned physical spaces (like unfinished housing developments) with abandoned digital worlds in Roblox—and argues that both serve as meaningful, temporary places of human expression.
+    The article compares abandoned physical spaces (like unfinished housing developments) with abandoned digital worlds in Roblox—and argues that both serve as meaningful, temporary places of human expression.
 </p>
 
 <h2 class = "header-title-alt"> Alive Internet Theory - Spencer Chang </h2>
